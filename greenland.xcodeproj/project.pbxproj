@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B4B42241B70804D0058BFCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B42231B70804D0058BFCE /* main.m */; };
+		8B4B42271B70804D0058BFCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B42261B70804D0058BFCE /* AppDelegate.m */; };
+		8B4B422A1B70804D0058BFCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B42291B70804D0058BFCE /* ViewController.m */; };
+		8B4B422D1B70804D0058BFCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B4B422B1B70804D0058BFCE /* Main.storyboard */; };
+		8B4B422F1B70804D0058BFCE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4B422E1B70804D0058BFCE /* Images.xcassets */; };
+		8B4B42321B70804D0058BFCE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B4B42301B70804D0058BFCE /* LaunchScreen.xib */; };
+		8B4B423E1B70804E0058BFCE /* greenlandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B423D1B70804E0058BFCE /* greenlandTests.m */; };
+		8B4B425D1B7091750058BFCE /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B425C1B7091750058BFCE /* ApiManager.m */; };
+		8B4B42611B709C740058BFCE /* Astronomy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B42601B709C740058BFCE /* Astronomy.m */; };
+		8B4B42671B70A0BE0058BFCE /* Constatns.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B42661B70A0BE0058BFCE /* Constatns.m */; };
+		8B4B426B1B70AAE30058BFCE /* Forecast.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B4B426A1B70AAE30058BFCE /* Forecast.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B4B42381B70804D0058BFCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B4B42161B70804D0058BFCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B4B421D1B70804D0058BFCE;
+			remoteInfo = greenland;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B4B421E1B70804D0058BFCE /* greenland.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = greenland.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4B42221B70804D0058BFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4B42231B70804D0058BFCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B4B42251B70804D0058BFCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = greenland/AppDelegate.h; sourceTree = "<group>"; };
+		8B4B42261B70804D0058BFCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = greenland/AppDelegate.m; sourceTree = "<group>"; };
+		8B4B42281B70804D0058BFCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = greenland/ViewController.h; sourceTree = "<group>"; };
+		8B4B42291B70804D0058BFCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = greenland/ViewController.m; sourceTree = "<group>"; };
+		8B4B422C1B70804D0058BFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B4B422E1B70804D0058BFCE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = greenland/Images.xcassets; sourceTree = "<group>"; };
+		8B4B42311B70804D0058BFCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B4B42371B70804D0058BFCE /* greenlandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = greenlandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B4B423C1B70804E0058BFCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B4B423D1B70804E0058BFCE /* greenlandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = greenlandTests.m; sourceTree = "<group>"; };
+		8B4B425B1B7091750058BFCE /* ApiManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ApiManager.h; path = greenland/ApiManager.h; sourceTree = "<group>"; };
+		8B4B425C1B7091750058BFCE /* ApiManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ApiManager.m; path = greenland/ApiManager.m; sourceTree = "<group>"; };
+		8B4B425F1B709C740058BFCE /* Astronomy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Astronomy.h; path = greenland/Astronomy.h; sourceTree = "<group>"; };
+		8B4B42601B709C740058BFCE /* Astronomy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Astronomy.m; path = greenland/Astronomy.m; sourceTree = "<group>"; };
+		8B4B42651B70A0AB0058BFCE /* Constatns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constatns.h; sourceTree = "<group>"; };
+		8B4B42661B70A0BE0058BFCE /* Constatns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constatns.m; sourceTree = "<group>"; };
+		8B4B42681B70A4DD0058BFCE /* greenland-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "greenland-PrefixHeader.pch"; sourceTree = "<group>"; };
+		8B4B42691B70AAE30058BFCE /* Forecast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Forecast.h; path = greenland/Forecast.h; sourceTree = "<group>"; };
+		8B4B426A1B70AAE30058BFCE /* Forecast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Forecast.m; path = greenland/Forecast.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B4B421B1B70804D0058BFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4B42341B70804D0058BFCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B4B42151B70804D0058BFCE = {
+			isa = PBXGroup;
+			children = (
+				8B4B425E1B709C5F0058BFCE /* Models */,
+				8B4B425A1B7091570058BFCE /* Endpoint */,
+				8B4B42591B70913F0058BFCE /* Controllers */,
+				8B4B42581B7091320058BFCE /* Recourses */,
+				8B4B42571B7091280058BFCE /* View */,
+				8B4B42561B70911F0058BFCE /* AppDelegate */,
+				8B4B42211B70804D0058BFCE /* Supporting Files */,
+				8B4B423A1B70804D0058BFCE /* greenlandTests */,
+				8B4B421F1B70804D0058BFCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B4B421F1B70804D0058BFCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B421E1B70804D0058BFCE /* greenland.app */,
+				8B4B42371B70804D0058BFCE /* greenlandTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B4B42211B70804D0058BFCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B42221B70804D0058BFCE /* Info.plist */,
+				8B4B42231B70804D0058BFCE /* main.m */,
+				8B4B42651B70A0AB0058BFCE /* Constatns.h */,
+				8B4B42661B70A0BE0058BFCE /* Constatns.m */,
+				8B4B42681B70A4DD0058BFCE /* greenland-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			path = greenland;
+			sourceTree = "<group>";
+		};
+		8B4B423A1B70804D0058BFCE /* greenlandTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B423D1B70804E0058BFCE /* greenlandTests.m */,
+				8B4B423B1B70804E0058BFCE /* Supporting Files */,
+			);
+			path = greenlandTests;
+			sourceTree = "<group>";
+		};
+		8B4B423B1B70804E0058BFCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B423C1B70804E0058BFCE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B4B42561B70911F0058BFCE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B42251B70804D0058BFCE /* AppDelegate.h */,
+				8B4B42261B70804D0058BFCE /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		8B4B42571B7091280058BFCE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B422B1B70804D0058BFCE /* Main.storyboard */,
+				8B4B42301B70804D0058BFCE /* LaunchScreen.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8B4B42581B7091320058BFCE /* Recourses */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B422E1B70804D0058BFCE /* Images.xcassets */,
+			);
+			name = Recourses;
+			sourceTree = "<group>";
+		};
+		8B4B42591B70913F0058BFCE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B42281B70804D0058BFCE /* ViewController.h */,
+				8B4B42291B70804D0058BFCE /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		8B4B425A1B7091570058BFCE /* Endpoint */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B425B1B7091750058BFCE /* ApiManager.h */,
+				8B4B425C1B7091750058BFCE /* ApiManager.m */,
+			);
+			name = Endpoint;
+			sourceTree = "<group>";
+		};
+		8B4B425E1B709C5F0058BFCE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8B4B425F1B709C740058BFCE /* Astronomy.h */,
+				8B4B42601B709C740058BFCE /* Astronomy.m */,
+				8B4B42691B70AAE30058BFCE /* Forecast.h */,
+				8B4B426A1B70AAE30058BFCE /* Forecast.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B4B421D1B70804D0058BFCE /* greenland */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4B42411B70804E0058BFCE /* Build configuration list for PBXNativeTarget "greenland" */;
+			buildPhases = (
+				8B4B421A1B70804D0058BFCE /* Sources */,
+				8B4B421B1B70804D0058BFCE /* Frameworks */,
+				8B4B421C1B70804D0058BFCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = greenland;
+			productName = greenland;
+			productReference = 8B4B421E1B70804D0058BFCE /* greenland.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B4B42361B70804D0058BFCE /* greenlandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B4B42441B70804E0058BFCE /* Build configuration list for PBXNativeTarget "greenlandTests" */;
+			buildPhases = (
+				8B4B42331B70804D0058BFCE /* Sources */,
+				8B4B42341B70804D0058BFCE /* Frameworks */,
+				8B4B42351B70804D0058BFCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B4B42391B70804D0058BFCE /* PBXTargetDependency */,
+			);
+			name = greenlandTests;
+			productName = greenlandTests;
+			productReference = 8B4B42371B70804D0058BFCE /* greenlandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B4B42161B70804D0058BFCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = syuryev;
+				TargetAttributes = {
+					8B4B421D1B70804D0058BFCE = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8B4B42361B70804D0058BFCE = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8B4B421D1B70804D0058BFCE;
+					};
+				};
+			};
+			buildConfigurationList = 8B4B42191B70804D0058BFCE /* Build configuration list for PBXProject "greenland" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B4B42151B70804D0058BFCE;
+			productRefGroup = 8B4B421F1B70804D0058BFCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B4B421D1B70804D0058BFCE /* greenland */,
+				8B4B42361B70804D0058BFCE /* greenlandTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B4B421C1B70804D0058BFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4B422D1B70804D0058BFCE /* Main.storyboard in Resources */,
+				8B4B42321B70804D0058BFCE /* LaunchScreen.xib in Resources */,
+				8B4B422F1B70804D0058BFCE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4B42351B70804D0058BFCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B4B421A1B70804D0058BFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4B425D1B7091750058BFCE /* ApiManager.m in Sources */,
+				8B4B422A1B70804D0058BFCE /* ViewController.m in Sources */,
+				8B4B42271B70804D0058BFCE /* AppDelegate.m in Sources */,
+				8B4B426B1B70AAE30058BFCE /* Forecast.m in Sources */,
+				8B4B42241B70804D0058BFCE /* main.m in Sources */,
+				8B4B42611B709C740058BFCE /* Astronomy.m in Sources */,
+				8B4B42671B70A0BE0058BFCE /* Constatns.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4B42331B70804D0058BFCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4B423E1B70804E0058BFCE /* greenlandTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B4B42391B70804D0058BFCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B4B421D1B70804D0058BFCE /* greenland */;
+			targetProxy = 8B4B42381B70804D0058BFCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B4B422B1B70804D0058BFCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B4B422C1B70804D0058BFCE /* Base */,
+			);
+			name = Main.storyboard;
+			path = greenland;
+			sourceTree = "<group>";
+		};
+		8B4B42301B70804D0058BFCE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B4B42311B70804D0058BFCE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = greenland;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B4B423F1B70804E0058BFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B4B42401B70804E0058BFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B4B42421B70804E0058BFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "greenland/greenland-PrefixHeader.pch";
+				INFOPLIST_FILE = greenland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B4B42431B70804E0058BFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "greenland/greenland-PrefixHeader.pch";
+				INFOPLIST_FILE = greenland/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B4B42451B70804E0058BFCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = greenlandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/greenland.app/greenland";
+			};
+			name = Debug;
+		};
+		8B4B42461B70804E0058BFCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = greenlandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/greenland.app/greenland";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B4B42191B70804D0058BFCE /* Build configuration list for PBXProject "greenland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4B423F1B70804E0058BFCE /* Debug */,
+				8B4B42401B70804E0058BFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B4B42411B70804E0058BFCE /* Build configuration list for PBXNativeTarget "greenland" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4B42421B70804E0058BFCE /* Debug */,
+				8B4B42431B70804E0058BFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B4B42441B70804E0058BFCE /* Build configuration list for PBXNativeTarget "greenlandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B4B42451B70804E0058BFCE /* Debug */,
+				8B4B42461B70804E0058BFCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8B4B42161B70804D0058BFCE /* Project object */;
+}

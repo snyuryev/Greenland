@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="arg-Ma-BoX">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunrise" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yp0-SB-IjE">
+                                <rect key="frame" x="207" y="523" width="89" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="HuR-uC-BdC"/>
+                                    <constraint firstAttribute="width" constant="89" id="xBt-NY-xhc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00 am" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3rE-UN-8JU">
+                                <rect key="frame" x="207" y="550" width="89" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OYk-J8-Zci"/>
+                                    <constraint firstAttribute="width" constant="89" id="rwl-u5-vAq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00 pm" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kAj-rc-0qt">
+                                <rect key="frame" x="304" y="550" width="89" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="5mo-LC-Rjd"/>
+                                    <constraint firstAttribute="width" constant="89" id="j8A-sv-Mdu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sunset" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AnI-Xs-Q9M">
+                                <rect key="frame" x="304" y="523" width="89" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="OBK-NW-ow6"/>
+                                    <constraint firstAttribute="width" constant="89" id="Tg1-K6-7aP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XhK-uY-XbM">
+                                <rect key="frame" x="37" y="100" width="533" height="400"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="arg-Ma-BoX" secondAttribute="trailing" constant="-16" id="6bh-aT-xvN"/>
+                            <constraint firstItem="AnI-Xs-Q9M" firstAttribute="top" secondItem="XhK-uY-XbM" secondAttribute="bottom" constant="23" id="76B-Cc-e1G"/>
+                            <constraint firstItem="XhK-uY-XbM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="QBY-mD-Bs3"/>
+                            <constraint firstAttribute="centerX" secondItem="kAj-rc-0qt" secondAttribute="centerX" constant="-48.5" id="T64-YD-Ueo"/>
+                            <constraint firstAttribute="centerX" secondItem="yp0-SB-IjE" secondAttribute="centerX" constant="48.5" id="UHb-mq-keq"/>
+                            <constraint firstAttribute="centerX" secondItem="3rE-UN-8JU" secondAttribute="centerX" constant="48.5" id="YhB-IX-MBw"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="arg-Ma-BoX" secondAttribute="bottom" id="aax-81-muI"/>
+                            <constraint firstItem="arg-Ma-BoX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="adi-V7-WLs"/>
+                            <constraint firstItem="arg-Ma-BoX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-16" id="axq-hs-g0J"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kAj-rc-0qt" secondAttribute="bottom" constant="20" id="f95-Za-hsX"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="yp0-SB-IjE" secondAttribute="bottom" constant="47" id="h3R-VB-U7K"/>
+                            <constraint firstAttribute="centerX" secondItem="AnI-Xs-Q9M" secondAttribute="centerX" constant="-48.5" id="ha9-Nc-uE0"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XhK-uY-XbM" secondAttribute="trailing" constant="14" id="nIk-42-9Ps"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="AnI-Xs-Q9M" secondAttribute="bottom" constant="47" id="qAa-iB-VcI"/>
+                            <constraint firstItem="XhK-uY-XbM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="80" id="rw0-h8-xNl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3rE-UN-8JU" secondAttribute="bottom" constant="20" id="szp-hy-i69"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundView" destination="arg-Ma-BoX" id="nbV-rM-xWz"/>
+                        <outlet property="sunriseLabel" destination="3rE-UN-8JU" id="zqs-va-u6L"/>
+                        <outlet property="sunsetLabel" destination="kAj-rc-0qt" id="m2s-B1-Hue"/>
+                        <outlet property="webView" destination="XhK-uY-XbM" id="Cfh-nc-8pI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Background" width="2560" height="1600"/>
+    </resources>
+</document>
